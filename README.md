@@ -25,10 +25,12 @@ Open a new Terminal window and do the following steps:
 
 ## Steps 
 
-1. Import `useState` from `React`
-    ```JSX
-    import React, { useState } from 'react';
-    ```
+1. Import Use State from React
+    -   Open `src/App.jsx`.
+    -   Just above App function import `useState` from `React`.
+        ```JSX
+        import React, { useState } from 'react';
+        ```
 
 
 2. Declare State Variables
@@ -44,7 +46,7 @@ Open a new Terminal window and do the following steps:
             setIsVisible(!isVisible)
         }
         ```
-    -   Inside of the components return statement just below the `<p>` element, add a button element.
+    -   Inside of the components return statement just below the `<h1>` element, add a button element.
     -   On the button type onClick to bind the click event created above and set it equal to `handleClick`. 
     -   Use ternary operator to display different text inside the button based on a `isVisible` state.
         ```JSX
@@ -66,5 +68,6 @@ Open a new Terminal window and do the following steps:
             ```
 
 If you followed the steps correctly you should see the following when you run your react application:
-[![Result](resources/result.png)]()  
+[![Result](resources/result1.png)]() 
+[![Result](resources/result2.png)]()   
 
